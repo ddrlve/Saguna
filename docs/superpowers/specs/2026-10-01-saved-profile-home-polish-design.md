@@ -17,7 +17,7 @@ After testing sub-project 2 on a device, the user said Home still felt unbalance
 inconsistent, the single "Siap Santap" tile floated alone with empty space beside it, the
 human-food section wasn't prominent enough, and the category icons were badly placed. The user
 asked for the UI to follow sound UI/UX principles, taking cues from food-rescue and super-apps
-(Surplus, Gojek, Grab) without copying them, and for SisaGuna to keep its own identity. Figma
+(Surplus, Gojek, Grab) without copying them, and for Saguna to keep its own identity. Figma
 is the starting point, but the user explicitly allowed deviating from it where it improves
 spacing, color, or clarity.
 

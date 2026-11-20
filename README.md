@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="docs/images/hero.svg" alt="SisaGuna app preview: buyer home, product with pickup order, and partner dashboard" width="100%">
+  <img src="docs/images/hero.svg" alt="Saguna app preview: buyer home, product with pickup order, and partner dashboard" width="100%">
 </p>
 
-# SisaGuna
+# Saguna
 
 Aplikasi Android untuk menyelamatkan makanan berlebih dari UMKM kuliner. Warung, kantin, bakery, dan resto kecil memposting makanan yang masih layak sebelum toko tutup, dengan harga jauh lebih murah atau gratis. Pembeli di sekitar memesan lewat aplikasi, lalu mengambil sendiri atau memakai kurir. Sisa yang tidak layak dimakan manusia disalurkan untuk pakan ternak dan kompos.
 
@@ -14,7 +14,7 @@ Aplikasi Android untuk menyelamatkan makanan berlebih dari UMKM kuliner. Warung,
 
 ## Daftar Isi
 
-1. [Apa Itu SisaGuna?](#apa-itu-sisaguna)
+1. [Apa Itu Saguna?](#apa-itu-saguna)
 2. [Coba Aplikasinya](#coba-aplikasinya)
 3. [Masalah dan Solusi](#masalah-dan-solusi)
 4. [Fitur Utama](#fitur-utama)
@@ -28,11 +28,11 @@ Aplikasi Android untuk menyelamatkan makanan berlebih dari UMKM kuliner. Warung,
 
 ---
 
-## Apa Itu SisaGuna?
+## Apa Itu Saguna?
 
 Bayangkan jam 8 malam di sebuah warung. Gado-gado masih banyak, tapi sebentar lagi tutup. Biasanya makanan itu dibuang. Di sisi lain, ada orang di sekitar yang mau makan enak dengan harga murah.
 
-**SisaGuna mempertemukan keduanya.** Penjual memotret makanan sisa, aplikasi mengecek kelayakannya, dan pembeli terdekat memesan dengan potongan harga 50-70% atau gratis. Makanan yang tidak lagi layak untuk manusia tidak dibuang: disalurkan ke peternak sebagai pakan atau ke tukang kebun sebagai kompos.
+**Saguna mempertemukan keduanya.** Penjual memotret makanan sisa, aplikasi mengecek kelayakannya, dan pembeli terdekat memesan dengan potongan harga 50-70% atau gratis. Makanan yang tidak lagi layak untuk manusia tidak dibuang: disalurkan ke peternak sebagai pakan atau ke tukang kebun sebagai kompos.
 
 **Tiga hasilnya:** penjual tetap dapat pemasukan, pembeli hemat, dan sampah organik berkurang.
 
@@ -90,7 +90,7 @@ flowchart LR
 
 **Masalah.** Banyak UMKM kuliner membuang makanan yang masih layak setiap hari karena tidak terjual sebelum tutup. Ini merugikan penjual dan menambah sampah organik.
 
-**Solusi.** SisaGuna mempertemukan penjual dengan pembeli di sekitar dalam waktu singkat:
+**Solusi.** Saguna mempertemukan penjual dengan pembeli di sekitar dalam waktu singkat:
 
 - Penjual memposting makanan berlebih dengan diskon 50-70% atau gratis.
 - Pembeli memesan dan membayar di aplikasi, lalu mengambil sendiri atau memakai kurir.
@@ -265,7 +265,7 @@ Lewat terminal:
 |---|---|
 | Presentasi | [Canva](https://canva.link/d403zux6vbz05gn) |
 | Google Drive Group 4 | [Folder tim](https://drive.google.com/drive/folders/1rLPFOwbirGE__xXtSGb0MGmpDF2EmlHI?usp=sharing) |
-| Aplikasi (SisaGuna v0.5.0) | [GitHub Releases](https://github.com/ddrlve/SisaGuna/releases) |
+| Aplikasi (Saguna v0.5.0) | [GitHub Releases](https://github.com/ddrlve/SisaGuna/releases) |
 | Business Model Canvas (BMC Assignment 1) | [Canva PPT, halaman 2](https://canva.link/ynk773omp5141l4) |
 | Prototype Testing | [Canva PPT Prototype Testing](https://canva.link/8yx9ox6h5lbrkn6) |
 | Product Ideas | [Canva PPT Product Ideas](https://canva.link/rq4jx6kgl2svlbn) |
