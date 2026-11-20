@@ -124,7 +124,7 @@ private fun AccountTypeStep(
         ) {
             SgLogo(markSize = 28, textSize = 17, textColor = SgColor.Ink, modifier = Modifier.padding(top = 24.dp))
             Text(
-                text = l("Mau pakai SisaGuna sebagai apa?", "How will you use SisaGuna?"),
+                text = l("Mau pakai Saguna sebagai apa?", "How will you use Saguna?"),
                 style = SgTextStyle.Display.copy(fontSize = 26.sp, lineHeight = 32.sp),
                 color = SgColor.Ink,
                 modifier = Modifier.padding(top = 28.dp),
@@ -299,7 +299,7 @@ private fun DetailsStep(
                     modifier = Modifier.clickable(onClick = onBack),
                 )
                 Text(text = "Lengkapi Data Diri", fontSize = 28.sp, fontWeight = FontWeight.Bold, color = SgColor.Neutral800)
-                Text(text = "Data ini dipakai untuk akun SisaGuna kamu.", style = SgTextStyle.TextSmRegular, color = SgColor.Neutral500)
+                Text(text = "Data ini dipakai untuk akun Saguna kamu.", style = SgTextStyle.TextSmRegular, color = SgColor.Neutral500)
             }
             Column(
                 modifier = Modifier.padding(horizontal = 24.dp),

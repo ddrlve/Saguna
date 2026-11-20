@@ -206,7 +206,7 @@ fun MerchantHome(
                     Text(l("Pendapatan bersih hari ini", "Today's net earnings"), style = SgTextStyle.Caption, color = Color.White.copy(alpha = 0.8f))
                     androidx.compose.material3.Text(formatRupiah(todayRevenue), style = SgTextStyle.Display, color = Color.White)
                     Text(
-                        l("Penjualan ${formatRupiah(todaySales)} · komisi SisaGuna ${AppFees.MERCHANT_COMMISSION_PERCENT}%", "Sales ${formatRupiah(todaySales)} · SisaGuna fee ${AppFees.MERCHANT_COMMISSION_PERCENT}%"),
+                        l("Penjualan ${formatRupiah(todaySales)} · komisi Saguna ${AppFees.MERCHANT_COMMISSION_PERCENT}%", "Sales ${formatRupiah(todaySales)} · Saguna fee ${AppFees.MERCHANT_COMMISSION_PERCENT}%"),
                         style = SgTextStyle.Caption.copy(fontSize = 11.sp),
                         color = Color.White.copy(alpha = 0.75f),
                     )
@@ -362,8 +362,8 @@ private fun StoreStatusCard(status: MerchantStatus?, onSetup: () -> Unit) {
             "Add your store details to start selling surplus food.",
         )
         MerchantStatus.PENDING -> l("Toko menunggu persetujuan", "Store awaiting approval") to l(
-            "Tim SisaGuna sedang memeriksa tokomu. Kamu bisa berjualan setelah disetujui.",
-            "The SisaGuna team is reviewing your store. You can sell once it's approved.",
+            "Tim Saguna sedang memeriksa tokomu. Kamu bisa berjualan setelah disetujui.",
+            "The Saguna team is reviewing your store. You can sell once it's approved.",
         )
         MerchantStatus.REJECTED -> l("Toko belum disetujui", "Store not approved") to l(
             "Pendaftaran tokomu ditolak. Hubungi bantuan untuk info lebih lanjut.",

@@ -92,8 +92,8 @@ fun StoreSetupScreen(
         ) {
             Text(
                 l(
-                    "Tim SisaGuna memeriksa tokomu dulu sebelum bisa berjualan. Biasanya tidak lama.",
-                    "The SisaGuna team reviews every store before it can sell. This is usually quick.",
+                    "Tim Saguna memeriksa tokomu dulu sebelum bisa berjualan. Biasanya tidak lama.",
+                    "The Saguna team reviews every store before it can sell. This is usually quick.",
                 ),
                 style = SgTextStyle.Body,
                 color = SgColor.InkMuted,

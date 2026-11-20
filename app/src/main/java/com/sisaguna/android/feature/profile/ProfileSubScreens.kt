@@ -530,7 +530,7 @@ private fun PasswordInput(label: String, value: String, onChange: (String) -> Un
 // ---------------------------------------------------------------- Pusat Bantuan
 
 private val faqs = listOf(
-    "Apa itu SisaGuna?" to "SisaGuna menghubungkan kamu dengan makanan berlebih dari warung, toko roti, katering, dan rumah tangga di sekitarmu. Makanan layak makan dijual murah atau gratis, sisanya disalurkan untuk pakan ternak dan kompos.",
+    "Apa itu Saguna?" to "Saguna menghubungkan kamu dengan makanan berlebih dari warung, toko roti, katering, dan rumah tangga di sekitarmu. Makanan layak makan dijual murah atau gratis, sisanya disalurkan untuk pakan ternak dan kompos.",
     "Apakah makanannya aman?" to "Penyedia wajib mendeskripsikan kondisi makanan dengan jujur. Cek tampilan dan bau saat ambil, dan konsumsi di hari yang sama. Laporkan lewat rating kalau ada yang tidak sesuai.",
     "Bagaimana cara mengambil pesanan?" to "Setelah checkout, buka Aktivitas lalu tunjukkan kode pickup ke penyedia sebelum waktu ambil habis. Penyedia mengonfirmasi kode itu dan pesananmu selesai.",
     "Bisa batal pesanan?" to "Bisa, selama pesanan belum diambil. Pembayaran online dikembalikan dalam 1×24 jam.",
@@ -572,7 +572,7 @@ fun HelpScreen(onBack: () -> Unit) {
                 Row(horizontalArrangement = Arrangement.spacedBy(SgSpacing.Md)) {
                     SgButton(
                         "Chat CS",
-                        onClick = { runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://wa.me/6281200000000?text=Halo%20SisaGuna"))) } },
+                        onClick = { runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://wa.me/6281200000000?text=Halo%20Saguna"))) } },
                         modifier = Modifier.weight(1f),
                         leading = { Icon(Icons.Rounded.SupportAgent, contentDescription = null, tint = SgColor.OnBrand, modifier = Modifier.size(20.dp)) },
                     )

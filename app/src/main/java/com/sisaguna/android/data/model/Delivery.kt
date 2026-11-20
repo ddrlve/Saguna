@@ -4,7 +4,7 @@ import kotlin.math.roundToInt
 
 enum class Fulfillment { PICKUP, DELIVERY }
 
-/** Third-party couriers SisaGuna hands the order to — we never run our own drivers. */
+/** Third-party couriers Saguna hands the order to — we never run our own drivers. */
 enum class Courier(val label: String, val app: String, val brandColor: Long, val baseFee: Int, val perKm: Int, private val logo: String) {
     GOSEND("GoSend", "Gojek", 0xFF00AA13, 6_000, 2_500, "courier_gosend"),
     GRAB("GrabExpress", "Grab", 0xFF00B14F, 6_500, 2_400, "courier_grab"),

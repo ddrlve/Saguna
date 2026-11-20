@@ -12,7 +12,7 @@ data class Cart(
 }
 
 /**
- * SisaGuna's cut, split between both sides: the buyer pays a small flat service fee per order
+ * Saguna's cut, split between both sides: the buyer pays a small flat service fee per order
  * (Rp 1.000-3.000, stepped by basket size) and the seller gives up 10% of the food sale.
  * Courier fees are passed straight to the courier and never commissioned.
  */
@@ -75,7 +75,7 @@ enum class ComplaintReason(val label: String) {
 
 enum class ComplaintStatus(val label: String) {
     SUBMITTED("Terkirim"),
-    REVIEWING("Sedang ditinjau tim SisaGuna"),
+    REVIEWING("Sedang ditinjau tim Saguna"),
     RESOLVED("Selesai · dana dikembalikan"),
     REJECTED("Ditolak setelah ditinjau"),
 }
