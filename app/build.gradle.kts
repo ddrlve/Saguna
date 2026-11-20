@@ -15,7 +15,7 @@ android {
         applicationId = "com.sisaguna.android"
         minSdk = 26
         targetSdk = 34
-        versionCode = 5
+        versionCode = 6
         versionName = "0.5.0"
         // APK file name: SisaGuna-v<versionName>-debug.apk instead of app-debug.apk.
         base.archivesName.set("SisaGuna-v$versionName")
