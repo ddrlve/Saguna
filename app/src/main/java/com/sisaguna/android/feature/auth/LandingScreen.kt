@@ -140,7 +140,7 @@ private fun LandingContent(
         ) {
             Icon(painterResource(R.drawable.ic_logo_mark), contentDescription = null, tint = SgColor.OnBrand, modifier = Modifier.size(22.dp))
             RawText(
-                "sisaguna",
+                "saguna",
                 fontFamily = SgFont,
                 fontWeight = FontWeight.Bold,
                 fontSize = 18.sp,
