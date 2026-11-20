@@ -9,7 +9,9 @@ package com.sisaguna.android.ui.i18n
 internal object SeedContentEn {
     val map: Map<String, String> = mapOf(
         "Dapur rumahan yang sering kebanjiran pesanan arisan. Sisa yang masih layak dijual murah, sisanya jadi kompos." to "A home kitchen that's often swamped with arisan orders. What's still good is sold cheap; the rest becomes compost.",
-        "Warung masakan rumahan sejak 2009. Tiap sore sisa lauk katering kantor kami bagikan murah lewat SisaGuna." to "Home-style food stall since 2009. Every afternoon we sell leftover office-catering dishes cheaply on SisaGuna.",
+        // Server-sent copy: keep the old-brand key until the backend rebrands, too.
+        "Warung masakan rumahan sejak 2009. Tiap sore sisa lauk katering kantor kami bagikan murah lewat SisaGuna." to "Home-style food stall since 2009. Every afternoon we sell leftover office-catering dishes cheaply on Saguna.",
+        "Warung masakan rumahan sejak 2009. Tiap sore sisa lauk katering kantor kami bagikan murah lewat Saguna." to "Home-style food stall since 2009. Every afternoon we sell leftover office-catering dishes cheaply on Saguna.",
         "Bakery kecil di Blok M. Roti yang lewat best before tapi masih lembut dijual 70% lebih murah." to "A small bakery in Blok M. Bread past its best-before but still soft is sold 70% cheaper.",
         "Kantin kantor yang sering kelebihan nasi box rapat." to "An office canteen that often has extra meeting rice boxes.",
         "Kami kumpulkan sisa sayur pasar dan ampas tahu untuk peternak kecil di Depok." to "We collect leftover market vegetables and tofu pulp for small farmers in Depok.",

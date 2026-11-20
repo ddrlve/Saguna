@@ -5,7 +5,7 @@ import java.time.Instant
 
 /**
  * "Gimana caranya kita tau makanan ini layak konsumsi?" — the question every merchant and
- * buyer in user testing asked. SisaGuna answers it with three layers that are all visible to
+ * buyer in user testing asked. Saguna answers it with three layers that are all visible to
  * the buyer:
  *
  * 1. **Merchant self-check** at upload ([SafetyCheck]) — a short checklist; the required

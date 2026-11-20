@@ -365,8 +365,8 @@ private fun ServiceFeeRow(fee: Int) {
         ) {
             Text(
                 l(
-                    "Rp 1.000-3.000 per pesanan, sesuai total belanja, untuk menjalankan SisaGuna. Toko juga menanggung ${AppFees.MERCHANT_COMMISSION_PERCENT}% dari penjualan, jadi biayanya dibagi.",
-                    "Rp 1,000-3,000 per order, based on your basket, to keep SisaGuna running. Stores also pay ${AppFees.MERCHANT_COMMISSION_PERCENT}% of each sale, so the cost is shared.",
+                    "Rp 1.000-3.000 per pesanan, sesuai total belanja, untuk menjalankan Saguna. Toko juga menanggung ${AppFees.MERCHANT_COMMISSION_PERCENT}% dari penjualan, jadi biayanya dibagi.",
+                    "Rp 1,000-3,000 per order, based on your basket, to keep Saguna running. Stores also pay ${AppFees.MERCHANT_COMMISSION_PERCENT}% of each sale, so the cost is shared.",
                 ),
                 style = SgTextStyle.Caption,
                 modifier = Modifier.padding(top = 4.dp),

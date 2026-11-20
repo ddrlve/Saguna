@@ -168,10 +168,10 @@ fun SafetyCard(
         Text(
             l(
                 l(
-                    "Dicek oleh mitra saat upload + aturan waktu simpan SisaGuna. Bukan uji lab, kalau ada yang janggal, laporkan lewat Komplain.",
-                    "Checked by the seller at upload plus SisaGuna's storage-time rules. Not a lab test; if anything seems off, report it via Complaint.",
+                    "Dicek oleh mitra saat upload + aturan waktu simpan Saguna. Bukan uji lab, kalau ada yang janggal, laporkan lewat Komplain.",
+                    "Checked by the seller at upload plus Saguna's storage-time rules. Not a lab test; if anything seems off, report it via Complaint.",
                 ),
-                "Checked by the seller at upload + SisaGuna storage-time rules. Not a lab test, report anything off via Complaint.",
+                "Checked by the seller at upload + Saguna storage-time rules. Not a lab test, report anything off via Complaint.",
             ),
             style = SgTextStyle.Caption.copy(fontSize = 11.sp),
             modifier = Modifier.padding(top = 12.dp),

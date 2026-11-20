@@ -697,7 +697,7 @@ private fun ComplaintSheet(
                 modifier = Modifier.fillMaxWidth(),
             )
             Text(
-                l("Tim SisaGuna meninjau dalam 1×24 jam. Laporan makanan basi juga menurunkan skor kelayakan toko.", "We review within 24h. Spoiled-food reports also lower the store's safety score."),
+                l("Tim Saguna meninjau dalam 1×24 jam. Laporan makanan basi juga menurunkan skor kelayakan toko.", "We review within 24h. Spoiled-food reports also lower the store's safety score."),
                 style = SgTextStyle.Caption,
                 modifier = Modifier.padding(bottom = SgSpacing.Lg),
             )

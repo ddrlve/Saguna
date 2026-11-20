@@ -68,7 +68,7 @@ fun LoginScreen(
             ) {
                 LabeledField(label = "Email") {
                     if (email.isEmpty()) {
-                        Text(text = "user.sisaguna@gmail.com", style = SgTextStyle.TextSmRegular, color = SgColor.Neutral400)
+                        Text(text = "user.saguna@gmail.com", style = SgTextStyle.TextSmRegular, color = SgColor.Neutral400)
                     }
                     BasicTextField(
                         value = email,

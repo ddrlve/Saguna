@@ -54,7 +54,7 @@ private fun GuestGateSheetContent(onLoginClick: () -> Unit, onRegisterClick: () 
             textAlign = TextAlign.Center,
         )
         Text(
-            text = "Buat atau masuk ke akun SisaGuna kamu untuk pakai fitur ini.",
+            text = "Buat atau masuk ke akun Saguna kamu untuk pakai fitur ini.",
             style = SgTextStyle.TextSmRegular,
             color = SgColor.Neutral500,
             textAlign = TextAlign.Center,

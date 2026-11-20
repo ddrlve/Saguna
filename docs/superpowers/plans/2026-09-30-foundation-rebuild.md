@@ -2,7 +2,7 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Rebuild the app's entry flow — Splash, Landing, Login, Register — add a guest browsing mode, and fix the global notch/status-bar clipping bug, as sub-project 1 of 4 in the SisaGuna Figma-fidelity rebuild.
+**Goal:** Rebuild the app's entry flow — Splash, Landing, Login, Register — add a guest browsing mode, and fix the global notch/status-bar clipping bug, as sub-project 1 of 4 in the Saguna Figma-fidelity rebuild.
 
 **Architecture:** Compose + Hilt, matching the existing feature-per-package layout. A new `core/session` package holds a small `SessionViewModel` (in-memory `GUEST`/`AUTHENTICATED` state, no backend — this repo is frontend-only) that `NavGraph.kt` reads to gate bottom-nav tabs and the Upload CTA behind a `GuestGateSheet`. `Splash` becomes its own route ahead of `Landing` instead of an overlay baked into `LandingScreen`.
 
@@ -332,7 +332,7 @@ private fun GuestGateSheetContent(onLoginClick: () -> Unit, onRegisterClick: () 
             textAlign = TextAlign.Center,
         )
         Text(
-            text = "Buat atau masuk ke akun SisaGuna kamu untuk pakai fitur ini.",
+            text = "Buat atau masuk ke akun Saguna kamu untuk pakai fitur ini.",
             style = SgTextStyle.TextSmRegular,
             color = SgColor.Neutral500,
             textAlign = TextAlign.Center,
@@ -583,7 +583,7 @@ fun LandingScreen(
                     color = SgColor.Neutral800,
                 )
                 Text(
-                    text = "Setiap tahun, berton-ton makanan layak makan terbuang sia-sia. Bersama SisaGuna, ambil bagian menyelamatkan surplus makanan lezat di sekitarmu dengan harga sangat terjangkau atau bahkan gratis!",
+                    text = "Setiap tahun, berton-ton makanan layak makan terbuang sia-sia. Bersama Saguna, ambil bagian menyelamatkan surplus makanan lezat di sekitarmu dengan harga sangat terjangkau atau bahkan gratis!",
                     style = SgTextStyle.TextSmRegular,
                     color = SgColor.Neutral500,
                 )
@@ -667,7 +667,7 @@ private fun HeroArea(modifier: Modifier = Modifier) {
                 .background(SgColor.Brand500, RoundedCornerShape(100.dp))
                 .padding(horizontal = 16.dp, vertical = 8.dp),
         ) {
-            Text(text = "sisaguna", fontSize = 14.sp, fontWeight = FontWeight.Bold, color = SgColor.BaseWhite)
+            Text(text = "saguna", fontSize = 14.sp, fontWeight = FontWeight.Bold, color = SgColor.BaseWhite)
         }
     }
 }
@@ -821,7 +821,7 @@ private fun AccountTypeStep(
                     textAlign = TextAlign.Center,
                 )
                 Text(
-                    text = "Sesuaikan peran Anda untuk mengakses sistem terbaik SisaGuna.",
+                    text = "Sesuaikan peran Anda untuk mengakses sistem terbaik Saguna.",
                     style = SgTextStyle.TextSmRegular,
                     color = SgColor.Neutral500,
                     textAlign = TextAlign.Center,
@@ -879,7 +879,7 @@ private fun DetailsStep(
                     modifier = Modifier.clickable(onClick = onBack),
                 )
                 Text(text = "Lengkapi Data Diri", fontSize = 28.sp, fontWeight = FontWeight.Bold, color = SgColor.Neutral800)
-                Text(text = "Data ini dipakai untuk akun SisaGuna kamu.", style = SgTextStyle.TextSmRegular, color = SgColor.Neutral500)
+                Text(text = "Data ini dipakai untuk akun Saguna kamu.", style = SgTextStyle.TextSmRegular, color = SgColor.Neutral500)
             }
             Column(
                 modifier = Modifier.padding(horizontal = 24.dp),

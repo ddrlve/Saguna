@@ -20,7 +20,7 @@ import com.sisaguna.android.ui.theme.SgFont
 import com.sisaguna.android.R
 import com.sisaguna.android.ui.theme.SgColor
 
-/** Brand mark (Figma "Group 6" / "Logo 26/34/38") — the double-chevron glyph + "sisaguna". */
+/** Brand mark (Figma "Group 6" / "Logo 26/34/38") — the double-chevron glyph + "saguna". */
 @Composable
 fun SgLogo(
     modifier: Modifier = Modifier,
@@ -39,7 +39,7 @@ fun SgLogo(
         // Font padding and the default line box put the wordmark visibly below the mark's
         // centre; trimming both makes Row's CenterVertically centre the actual glyphs.
         Text(
-            text = "sisaguna",
+            text = "saguna",
             color = textColor,
             style = TextStyle(
                 fontFamily = SgFont,

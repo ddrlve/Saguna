@@ -144,7 +144,7 @@ fun SplashScreen(onTimeout: () -> Unit) {
             Spacer(Modifier.width(12.dp))
             Box(Modifier.clipToBounds()) {
                 RawText(
-                    text = "sisaguna",
+                    text = "saguna",
                     fontFamily = SgFont,
                     fontSize = 30.sp,
                     fontWeight = FontWeight.ExtraBold,
