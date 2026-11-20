@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SisaGuna</string>
+    <string name="app_name">Saguna</string>
 
     <!-- Home -->
     <string name="home_default_address_label">Rumah</string>
@@ -134,7 +134,7 @@
     <!-- Notification settings -->
     <string name="notif_settings_title">Notifikasi Aplikasi</string>
     <string name="notif_settings_master">Izinkan notifikasi</string>
-    <string name="notif_settings_master_body">Matikan untuk berhenti menerima semua notifikasi SisaGuna.</string>
+    <string name="notif_settings_master_body">Matikan untuk berhenti menerima semua notifikasi Saguna.</string>
     <string name="notif_settings_section">Jenis notifikasi</string>
     <string name="notif_pref_pickup">Pengingat pickup</string>
     <string name="notif_pref_pickup_body">30 menit sebelum waktu ambil berakhir</string>
