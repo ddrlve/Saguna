@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/images/hero.svg" alt="Saguna banner with Miki the mascot next to the product detail, landing and buyer home screens" width="100%">
+  <img src="docs/images/hero.svg" alt="Saguna banner with Miki the mascot next to the buyer home and landing screens" width="100%">
 </p>
 
 # Saguna
@@ -65,7 +65,7 @@ flowchart LR
 
 ## Coba Aplikasinya
 
-**Download APK:** buka halaman [Releases](https://github.com/ddrlve/SisaGuna/releases), lalu unduh file `SisaGuna-v0.5.0-debug.apk`.
+**Download APK:** buka halaman [Releases](https://github.com/ddrlve/SisaGuna/releases), lalu unduh file `Saguna-v0.6.0-debug.apk`.
 
 **Cara install di HP Android (minimal Android 8.0):**
 
@@ -149,7 +149,7 @@ Biaya platform dibagi antara pembeli dan mitra:
 
 ## Status Pengerjaan
 
-**Versi saat ini: 0.5.0**
+**Versi saat ini: 0.6.0**
 
 | Bagian | Status |
 |---|---|
@@ -265,7 +265,7 @@ Lewat terminal:
 |---|---|
 | Presentasi | [Canva](https://canva.link/d403zux6vbz05gn) |
 | Google Drive Group 4 | [Folder tim](https://drive.google.com/drive/folders/1rLPFOwbirGE__xXtSGb0MGmpDF2EmlHI?usp=sharing) |
-| Aplikasi (Saguna v0.5.0) | [GitHub Releases](https://github.com/ddrlve/SisaGuna/releases) |
+| Aplikasi (Saguna v0.6.0) | [GitHub Releases](https://github.com/ddrlve/SisaGuna/releases) |
 | Business Model Canvas (BMC Assignment 1) | [Canva PPT, halaman 2](https://canva.link/ynk773omp5141l4) |
 | Prototype Testing | [Canva PPT Prototype Testing](https://canva.link/8yx9ox6h5lbrkn6) |
 | Product Ideas | [Canva PPT Product Ideas](https://canva.link/rq4jx6kgl2svlbn) |
