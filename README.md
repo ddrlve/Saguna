@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/images/hero.svg" alt="Saguna app preview: buyer home, product with pickup order, and partner dashboard" width="100%">
+  <img src="docs/images/hero.svg" alt="Saguna banner with Miki the mascot next to the product detail, landing and buyer home screens" width="100%">
 </p>
 
 # Saguna

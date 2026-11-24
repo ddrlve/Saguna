@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
-    <background android:drawable="@android:color/white" />
-    <foreground android:drawable="@drawable/ic_launcher_foreground_art" />
+    <!-- Christmas icon: Miki in a Santa hat. After the season, switch back to
+         background @android:color/white and foreground @drawable/ic_launcher_foreground_art,
+         then delete drawable-nodpi/ic_launcher_xmas_*.png. -->
+    <background android:drawable="@drawable/ic_launcher_xmas_bg" />
+    <foreground android:drawable="@drawable/ic_launcher_xmas_fg" />
+    <!-- Themed icon (Android 13+) keeps the plain saguna mark all year. -->
+    <monochrome android:drawable="@drawable/ic_launcher_foreground_art" />
 </adaptive-icon>
