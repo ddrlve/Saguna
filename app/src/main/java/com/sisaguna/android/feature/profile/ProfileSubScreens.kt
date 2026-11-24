@@ -578,7 +578,7 @@ fun HelpScreen(onBack: () -> Unit) {
                     )
                     SgButton(
                         "Email",
-                        onClick = { runCatching { context.startActivity(Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:halo@sisaguna.id"))) } },
+                        onClick = { runCatching { context.startActivity(Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:halo@saguna.app"))) } },
                         style = SgButtonStyle.Secondary,
                         modifier = Modifier.weight(1f),
                         leading = { Icon(Icons.Rounded.Email, contentDescription = null, tint = SgColor.Brand600, modifier = Modifier.size(20.dp)) },
