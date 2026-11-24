@@ -86,6 +86,7 @@ class ApiListingRepository @Inject constructor(
         cards.forEach { cacheMerchant(it.merchant, full = false) }
         home.offerMerchants.forEach { cacheMerchant(it, full = false) }
         cacheListings(cards.map { it.toListing() })
+        fillMissingOfferBanners(home.offerMerchants.map { it.id })
 
         // todays_offer belongs to the current offer list only; drop a stale one remembered earlier.
         val offers = home.offerMerchants.associate { it.id to it.todaysOffer }
@@ -99,6 +100,21 @@ class ApiListingRepository @Inject constructor(
             merchantsById = byId,
             popular = home.popular.map { it.toListing() },
         )
+    }
+
+    /**
+     * `/home` sends the "Penawaran hari ini" stores without `banner_url`, so their photo used to
+     * show only after a store list had been opened once. Fill the gaps from `/merchants`, which
+     * does carry banners. Best effort: on failure the cards keep their plain background.
+     */
+    private suspend fun fillMissingOfferBanners(offerIds: List<String>) {
+        if (offerIds.none { merchants.value[it]?.bannerUrl.isNullOrBlank() }) return
+        try {
+            apiData { api.merchants(point?.latitude, point?.longitude, available = null) }
+                .forEach { cacheMerchant(it, full = false) }
+        } catch (e: AppException) {
+            // The offer text still shows; only the photo is missing.
+        }
     }
 
     // shortcut: first page only (the API caps a page at 50), add paging when a tier outgrows it.
